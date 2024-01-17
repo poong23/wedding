@@ -1,3 +1,18 @@
+.pc {
+    position: relative;
+    width: 1080px;
+    height: 100vh;
+    margin: 0 auto;
+    background: url("../images/img_large.png") no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding: 400px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #333;
+    box-sizing: border-box;
+}
 .pungPang {
     max-width: 720px;
     margin: 0 auto;

@@ -1,4 +1,24 @@
 $(document).ready(function () {
+    if ($(window).width() > 768) {
+        $(".mobile").hide();
+        $(".pc").show();
+    } else {
+        //mobile
+        $(".pc").hide();
+        $(".mobile").show();
+    }
+
+    $(window).resize(function () {
+        if ($(window).width() >= 768) {
+            $(".mobile").hide();
+            $(".pc").show();
+        } else {
+            //mobile
+            $(".pc").hide();
+            $(".mobile").show();
+        }
+    });
+
     $(".main-visual__btn").click(function () {
         bgm_player();
     });
